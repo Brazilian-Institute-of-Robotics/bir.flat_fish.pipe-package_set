@@ -1,0 +1,9 @@
+name: bir.flat_fish.pipe
+
+version_control:
+    - perception/.*:
+        github: Brazilian-Institute-of-Robotics/perception-$PACKAGE_BASENAME
+        private: true
+    - perception/orogen/.*:
+        github: Brazilian-Institute-of-Robotics/perception-orogen-$PACKAGE_BASENAME
+        private: true

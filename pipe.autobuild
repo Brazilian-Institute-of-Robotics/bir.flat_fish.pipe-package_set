@@ -1,0 +1,6 @@
+cmake_package 'perception/sonar_image_processing'
+
+orogen_package 'perception/orogen/sonar_pipeline_detection'
+
+metapackage 'bir.flat_fish.pipe',
+    perception/orogen/sonar_pipeline_detection

@@ -1,8 +1,11 @@
 cmake_package 'perception/sonar_image_processing'
-
 orogen_package 'perception/orogen/sonar_pipeline_detection'
 orogen_package 'perception/orogen/distance_to_target'
 
 metapackage 'bir.flat_fish.pipe',
+    'tools/orocos.rb',
+    'tools/metaruby',
+    'tools/pocolog',
+    'gui/vizkit',
     'perception/orogen/distance_to_target',
     'perception/orogen/sonar_pipeline_detection'
